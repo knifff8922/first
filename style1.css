@@ -54,6 +54,9 @@
 .btn-group {
 	width: 55%;
 }
+.btn {
+	font-size: 30px;
+}
 
 .russia {
 	position: absolute;
