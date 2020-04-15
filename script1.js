@@ -32,3 +32,39 @@ f1.onmouseout = function (){
 
     /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
     document.getElementById('date').innerHTML = date_time();
+
+
+
+    document.getElementById("option1")
+    document.getElementById("option2")
+    document.getElementById("option3")
+    document.getElementById("option4")
+    document.getElementById("russ")
+    document.getElementById("msc")
+    document.getElementById("uln")
+    document.getElementById("wrd")
+
+    document.getElementById("option1").onclick = function (){
+    	document.getElementById("russ").style.display = 'flex';
+    	document.getElementById("msc").style.display = 'none';
+    	document.getElementById("uln").style.display = 'none';
+    	document.getElementById("wrd").style.display = 'none';
+    }
+    document.getElementById("option2").onclick = function (){
+    	document.getElementById("russ").style.display = 'none';
+    	document.getElementById("msc").style.display = 'flex';
+    	document.getElementById("uln").style.display = 'none';
+    	document.getElementById("wrd").style.display = 'none';
+    }
+    document.getElementById("option3").onclick = function (){
+    	document.getElementById("russ").style.display = 'none';
+    	document.getElementById("msc").style.display = 'none';
+    	document.getElementById("uln").style.display = 'flex';
+    	document.getElementById("wrd").style.display = 'none';
+    }
+    document.getElementById("option4").onclick = function (){
+    	document.getElementById("russ").style.display = 'none';
+    	document.getElementById("msc").style.display = 'none';
+    	document.getElementById("uln").style.display = 'none';
+    	document.getElementById("wrd").style.display = 'flex';
+    }

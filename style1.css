@@ -17,7 +17,7 @@
 }
 .first:hover {
 	border: 4px solid #0061a1;
-	background: radial-gradient(circle, blue, white);
+	background: radial-gradient(circle, #95b5ff, white);
 }
 .date1 {
 	font-size: 50px;
@@ -53,4 +53,146 @@
 }
 .btn-group {
 	width: 55%;
+}
+
+.russia {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+/* 	border: 4px solid black; */
+	width: 80%;
+	height: 230px;
+	margin-top: 450px;
+}
+.moscow {
+	position: absolute;
+	display: none;
+	justify-content: center;
+/* 	border: 4px solid black; */
+	width: 80%;
+	height: 230px;
+	margin-top: 450px;
+}
+.ulyanovsk {
+	position: absolute;
+	display: none;
+	justify-content: center;
+/* 	border: 4px solid black; */
+	width: 80%;
+	height: 230px;
+	margin-top: 450px;
+}
+.world {
+	position: absolute;
+	display: none;
+	justify-content: center;
+/* 	border: 4px solid black; */
+	width: 80%;
+	height: 230px;
+	margin-top: 450px;
+}
+.pos1 {
+/* 	border: 1px solid #9c9c9c; */
+	width: 30%;
+	height: 220px;
+	border-right: 1px solid #9c9c9c;
+}
+.pos2 {
+	/* border: 1px solid #9c9c9c; */
+	width: 30%;
+	height: 220px;
+	border-right: 1px solid #9c9c9c;
+}
+.pos3 {
+	/* border: 1px solid #9c9c9c; */
+	width: 30%;
+	height: 220px;
+}
+
+.inf1 {
+	color: #36ff00;
+	font-size: 150%;
+	margin-left: 20%;
+}
+.txtgrey {
+	color: #949494;
+}
+.txtall1 {
+	font-size: 400%;
+	font-weight: 800;
+	margin-left: 20%;
+}
+.txtall2 {
+	font-size: 200%;
+	font-weight: 500;
+	margin-left: 20%;
+}
+.inf2 {
+	color: #000000;
+	font-size: 150%;
+	margin-left: 20%;
+}
+.inf3 {
+	color: #ff0000;
+	font-size: 150%;
+	margin-left: 20%;
+}
+@media (max-width: 1440px){
+	.txtall1 {
+		font-size: 300%;
+	}
+	.pos1 {
+		height: 180px;
+	}
+	.pos2 {
+		height: 180px;
+	}
+	.pos3 {
+		height: 180px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.date1 {
+		font-size: 30px;
+	}
+	.cov {
+		font-size: 50px;
+	}
+	.cov19 {
+		font-size: 40px;
+	}
+	.imgvirus {
+		width: 280px;
+		height: 210px;
+	}
+	.txtall1 {
+		font-size: 250%;
+	}
+	.txtall2 {
+		font-size: 150%;
+	}
+	.inf1 {
+		font-size: 120%;
+	}
+	.inf2 {
+		font-size: 120%;
+	}
+	.inf3 {
+		font-size: 120%;
+	}
+	.pos1 {
+		height: 150px;
+	}
+	.pos2 {
+		height: 150px;
+	}
+	.pos3 {
+		height: 150px;
+	}
+}
+@media (max-width: 1440px){
+	.txtall1 {
+		font-size: 220%;
+	}
 }
