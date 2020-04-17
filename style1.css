@@ -153,6 +153,9 @@
 	.pos3 {
 		height: 180px;
 	}
+	.txtall1 {
+		font-size: 220%;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -193,9 +196,30 @@
 	.pos3 {
 		height: 150px;
 	}
-}
-@media (max-width: 1440px){
-	.txtall1 {
-		font-size: 220%;
+	.butt1 {
+		width: 30%;
 	}
+}
+@media (max-width: 950px) {
+	.butt1 {
+		width: 20%;
+	}
+	.txtall1 {
+		font-size: 150%;
+	}
+	.pos1 {
+		height: 130px;
+	}
+	.pos2 {
+		height: 130px;
+	}
+	.pos3 {
+		height: 130px;
+	}
+}
+@media (max-width: 840px) {
+	.btn {
+		font-size: 25px;
+	}
+
 }
